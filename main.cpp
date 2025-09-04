@@ -15,7 +15,6 @@ int main() {
     int height = 61; // The person's height
 
     bmi = (weight / pow(height, 2)) * 703;
-    bmi = floor((bmi * 100) + .5) / 100;
 
     cout << "The BMI for this person is : " << bmi; // Display the BMI to the console
     
